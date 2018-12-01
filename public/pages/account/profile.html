@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">Profile</h3>
+            </div>
+            <div class="panel-body">
+                <div uib-alert ng-repeat="alert in vm.alerts" ng-class="'alert-' + (alert.type || 'warning')" close="vm.closeAlert($index)" dismiss-on-timeout="5000">{{alert.message}}</div>
+                <hr/>
+                <formly-form model="vm.profile" fields="vm.profileFields" form="vm.profileForm">
+                    <button type="submit" ng-click="vm.update()" class="btn btn-primary" ng-disabled="vm.profileForm.$invalid">Update
+                    </button>
+                </formly-form>
+            </div>
+        </div>
+    </div>
+</div>

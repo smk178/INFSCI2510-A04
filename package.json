@@ -1,0 +1,49 @@
+{
+  "name": "quizup",
+  "version": "1.0.0",
+  "description": "QuizUp Project",
+  "main": "server.js",
+  "dependencies": {
+    "angular-animate": "^1.7.5",
+    "angular-cookies": "^1.7.5",
+    "angular-route": "^1.7.5",
+    "bootstrap": "3.3.7",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "@uirouter/angularjs": "^1.0.20",
+    "angular": "^1.7.5",
+    "angular-formly": "^8.4.1",
+    "angular-formly-templates-bootstrap": "^6.5.1",
+    "angular-ui-bootstrap": "^2.5.6",
+    "api-check": "^7.5.5",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.8",
+    "mongoose-unique-validator": "^2.0.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "yarn": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://SMK178@dev.azure.com/SMK178/INFSCI%202560%20Web%20Technologoies%20and%20Standards/_git/INFSCI%202560%20Web%20Technologoies%20and%20Standards"
+  },
+  "keywords": [
+    "QuizUp",
+    "MEAN",
+    "MongoDb",
+    "AngularJs",
+    "Web"
+  ],
+  "author": "Group 11",
+  "license": "MIT"
+}
